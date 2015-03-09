@@ -1,0 +1,27 @@
+{
+  "name": "caje731",
+  "version": "0.1.0",
+  "authors": [
+    "Cajetan Rodrigues <caje731@gmail.com>"
+  ],
+  "description": "Caje's Personal Website",
+  "main": "index.html",
+  "keywords": [
+    "caje731",
+    "cajetan",
+    "rodrigues"
+  ],
+  "license": "MIT",
+  "homepage": "www.caje731.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
