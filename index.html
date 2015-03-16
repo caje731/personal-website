@@ -11,6 +11,7 @@
 	p{
 		font-family: 'Homemade Apple', cursive;
 		font-size: 16px;
+		line-height: 1.8;
 	}
 	div.quote {
 		font-family: Georgia, serif;
@@ -44,6 +45,16 @@
 	div.cite:before {
 		content: "\2014 \2009";
 	}
+
+	@font-face{
+		font-family: 'lexographer';
+		src: url('/resources/fonts/lexo.ttf') format('truetype');
+	}
+	.greeting {
+		font-family: lexographer;
+		color:peach;
+		font-size: 48px;
+	}
 	</style>
 </head>
 <body>
@@ -59,27 +70,27 @@
 		<div style="text-align:center" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<div class="row">
 				<h2>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Who is Cajetan Rodrigues?</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><small>Lemme tell you !</small></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 greeting">Who is this guy?</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:10px;"><small>Hello, My Name Is Cajetan Rodrigues</small></div>
 				</h2>
 			</div>
-			<div class="row">
+			<div class="row" style="padding-top:10px;">
 				<p> I'm from Mumbai </p>
 				<p>I write code for a living</p>
-				<p> I work for a tech startup</p>
+				<p> I <a href="http://www.massblurb.com" target="_blank">work with</a> awesome people!</p>
 				<p style="padding-left:20px; padding-right:20px;">I can give Sir William Wordsworth <a href="http://blog.caje731.com/poems" target="_blank">a run for his money !</a></p>
 				<p>I'm also a <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a> fan!</p>
 			</div>
 			<div class="row">
 				<div>
 					<a href="http://in.linkedin.com/in/cajetanrodrigues">
-						<img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" width="35" height="35" />
+						<img title="LinkedIn" alt="LinkedIn" src="/resources/images/linkedin.png" width="35" height="35" />
 					</a>
 					<a href="https://twitter.com/r_cajetan">
-						<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" />
+						<img title="Twitter" alt="Twitter" src="/resources/images/twitter.png" width="35" height="35" />
 					</a>
 					<a href="https://www.facebook.com/cajetanr">
-						<img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
+						<img title="Facebook" alt="Facebook" src="/resources/images/facebook.png" width="35" height="35" />
 					</a>
 				</div>
 			</div>
