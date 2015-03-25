@@ -24,38 +24,64 @@
 	</div>
 	
 	
-	<div class="row">
+	<div class="row" itemscope itemtype="http://schema.org/Person">
 		<div style="text-align:center" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<div class="row">
 				<h2>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 greeting">Who is this guy?</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:10px;"><small>Hello, My Name Is Cajetan Rodrigues</small></div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:10px;">
+						<small>Hello, My Name Is 
+							<span itemprop="name">
+								<span itemprop="givenName">Cajetan</span> 
+								<span itemprop="familyName">Rodrigues</span>
+							</span>
+						</small>
+					</div>
 				</h2>
 			</div>
 			<div class="row" style="padding-top:10px;">
-				<p> I'm from Mumbai </p>
+				
+				<p> I'm from <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+						<span itemprop="addressLocality">Mumbai</span>
+					</span> 
+				</p>
+				
 				<p>I write code for a living</p>
-				<p> I <a href="http://www.massblurb.com" target="_blank">work with</a> awesome people!</p>
-				<p> I like putting <a target="_blank" href="http://blog.caje731.com">pen to paper</a>.</p>
-				<p style="padding-left:20px; padding-right:20px;">I can give Sir William Wordsworth <a href="http://blog.caje731.com/poems" target="_blank">a run for his money !</a></p>
-				<p>I'm also a <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a> fan!</p>
+				
+				<p> I 
+					<a href="http://www.massblurb.com" target="_blank">work with</a> 
+					awesome people!
+				</p>
+				
+				<p> I like putting 
+					<a itemprop="url" target="_blank" href="http://blog.caje731.com">pen to paper</a>
+				</p>
+				
+				<p style="padding-left:20px; padding-right:20px;">I can give Sir William Wordsworth 
+					<a itemprop="url" href="http://blog.caje731.com/poems" target="_blank">a run for his money !</a>
+				</p>
+				
+				<p>I'm also a 
+					<a href="http://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a>
+					 fan!
+				</p>
 			</div>
 			<div class="row">
 				<div>
-					<a href="http://in.linkedin.com/in/cajetanrodrigues">
+					<a href="http://in.linkedin.com/in/cajetanrodrigues" itemprop="url">
 						<img title="LinkedIn - Cajetan Rodrigues" alt="LinkedIn - Cajetan Rodrigues" src="/resources/images/linkedin.png" width="35" height="35" />
 					</a>
-					<a href="https://twitter.com/r_cajetan">
+					<a href="https://twitter.com/r_cajetan" itemprop="url">
 						<img title="Twitter - Cajetan Rodrigues" alt="Twitter - Cajetan Rodrigues" src="/resources/images/twitter.png" width="35" height="35" />
 					</a>
-					<a href="https://www.facebook.com/cajetanr">
+					<a href="https://www.facebook.com/cajetanr" itemprop="url">
 						<img title="Facebook - Cajetan Rodrigues" alt="Facebook - Cajetan Rodrigues" src="/resources/images/facebook.png" width="35" height="35" />
 					</a>
 				</div>
 			</div>
 		</div>
 		<div style="text-align:center" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			<img src="/resources/images/Cajetan_Rodrigues.jpg" class="img-responsive center-block" alt="Cajetan Rodrigues">  
+			<img itemprop="image" src="/resources/images/Cajetan_Rodrigues.jpg" class="img-responsive center-block" alt="A photo of Cajetan Rodrigues">  
 		</div>
 	</div>
 </body>
